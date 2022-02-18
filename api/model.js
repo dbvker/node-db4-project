@@ -19,8 +19,7 @@ const getRecipeById = async (recipe_id) => {
           result.steps.push({
             step_id: row.step_id,
             step_number: row.step_number,
-            step_instructions: row.step_text,
-            ingredients: []
+            step_instructions: row.step_text
           })
         }
       });
